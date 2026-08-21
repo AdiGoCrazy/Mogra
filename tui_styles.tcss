@@ -1,0 +1,97 @@
+/* Textual TCSS Dark Theme Stylesheet for Movie Recommendation Agent */
+
+Screen {
+    background: $surface-darken-2;
+    layout: vertical;
+    overflow-x: hidden;
+}
+
+Header {
+    dock: top;
+    background: $primary-darken-2;
+    color: $text;
+    text-style: bold;
+}
+
+Footer {
+    dock: bottom;
+    background: $surface-darken-3;
+}
+
+#chat-container {
+    height: 1fr;
+    width: 100%;
+    max-width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 1;
+}
+
+#input-container {
+    height: auto;
+    dock: bottom;
+    padding: 0 1;
+    background: $surface-darken-1;
+    layout: horizontal;
+    width: 100%;
+    max-width: 100%;
+}
+
+#user-input {
+    width: 1fr;
+    border: tall $primary;
+}
+
+#send-button {
+    width: 14;
+    margin-left: 1;
+    border: tall $success;
+}
+
+UserMessageWidget, LoadingBannerWidget, MovieCardWidget, TelemetryChartWidget, FeedbackStatsHeaderWidget, FeedbackMovieCardWidget, FeedbackControlWidget {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1 0;
+    overflow-x: hidden;
+}
+
+AgentMessageWidget {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1 0;
+    padding: 1 2;
+    background: $surface-darken-1;
+    border: solid $success;
+    overflow-x: hidden;
+}
+
+.agent-prose {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.card-feedback-row {
+    height: 3;
+    margin: 1 0 1 0;
+    layout: horizontal;
+}
+
+.card-feedback-row Button {
+    margin-right: 2;
+    min-width: 16;
+}
+
+.prompt-feedback-row {
+    height: 3;
+    margin: 1 0 1 0;
+    layout: horizontal;
+}
+
+.prompt-feedback-row Button {
+    margin-right: 2;
+    min-width: 24;
+}

@@ -1,0 +1,45 @@
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.so
+
+# Environment Variables & Virtual Environments
+.env
+.env.local
+venv/
+.venv/
+env/
+ENV/
+
+# System Logs & Runtime Output Files
+logs/
+*.log
+
+# Development Agents & Internal AI Artifacts
+.agents/
+.gemini/
+brain/
+scratch/
+
+# Internal Development Specifications & Progress Reports (Allowing README.md and API.md)
+ORIGINAL_REQUEST.md
+engine_simulation_and_benchmark_report.md
+future_tasks_roadmap.md
+ingestion_manifest.md
+movie_genres_and_subgenres.md
+test_suite_specification.md
+feedback_tui_app.py
+ui/feedback_widgets.py
+tests/test_feedback_tui.py
+data/rlhf_feedback_dataset.jsonl
+
+# OS & Editor Files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo

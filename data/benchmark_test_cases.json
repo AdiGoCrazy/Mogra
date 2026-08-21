@@ -1,0 +1,87 @@
+[
+  {
+    "category": "P-01: Anchor Similarity",
+    "prompt": "movies like Blade Runner",
+    "expected": ["Blade Runner 2049", "Cyberpunk", "Science Fiction"]
+  },
+  {
+    "category": "P-02: Spatial Setting",
+    "prompt": "sci-fi space horror with isolated ship",
+    "expected": ["Alien", "The Thing", "Horror"]
+  },
+  {
+    "category": "P-03: Visual & Atmospheric",
+    "prompt": "dystopian cyberpunk thriller with mind games",
+    "expected": ["Blade Runner", "Cyberpunk"]
+  },
+  {
+    "category": "P-04: Psychological & Tone",
+    "prompt": "psychological thriller with dread and high suspense",
+    "expected": ["Psycho", "Se7en", "The Thing"]
+  },
+  {
+    "category": "P-05: Dynamic Fusion",
+    "prompt": "dark crime drama meets sci-fi action",
+    "expected": ["The Dark Knight", "Blade Runner"]
+  },
+  {
+    "category": "P-06: Multi-Anchor Hybrid",
+    "prompt": "movie combining Blade Runner and Alien",
+    "expected": ["Blade Runner 2049", "The Thing", "Alien"]
+  },
+  {
+    "category": "P-07: Subgenre Category",
+    "prompt": "romantic comedy with witty dialogue",
+    "expected": ["Eternal Sunshine", "La La Land", "Romance"]
+  },
+  {
+    "category": "P-08: Subgenre Category",
+    "prompt": "cyberpunk sci-fi thriller",
+    "expected": ["Blade Runner", "Blade Runner 2049", "Cyberpunk"]
+  },
+  {
+    "category": "P-09: Subgenre Category",
+    "prompt": "slasher horror in a motel",
+    "expected": ["Psycho", "Horror", "Slasher"]
+  },
+  {
+    "category": "P-10: Failsafe Obscure",
+    "prompt": "obscure experimental surrealist space drama",
+    "expected": ["Science Fiction", "Drama"]
+  },
+  {
+    "category": "P-11: Negative Seed Exclusion",
+    "prompt": "sci-fi space movie but not like Interstellar",
+    "expected": ["Alien", "The Thing"]
+  },
+  {
+    "category": "P-12: Multi-Vector Alignment",
+    "prompt": "philosophical sci-fi with cosmic dread and synthetic soundscape",
+    "expected": ["Blade Runner", "Alien"]
+  },
+  {
+    "category": "P-13: Spatial Isolation",
+    "prompt": "creature horror in antarctica isolated station",
+    "expected": ["The Thing"]
+  },
+  {
+    "category": "P-14: Genre Constraint",
+    "prompt": "crime thriller without romance",
+    "expected": ["Goodfellas", "Pulp Fiction", "Se7en"]
+  },
+  {
+    "category": "P-15: Cross-Genre Fusion",
+    "prompt": "fusion of Eternal Sunshine and Blade Runner",
+    "expected": ["Eternal Sunshine", "Blade Runner 2049"]
+  },
+  {
+    "category": "P-16: Subgenre Category",
+    "prompt": "psychological horror in a house",
+    "expected": ["Psycho", "The Thing"]
+  },
+  {
+    "category": "P-17: Triplet Multi-Anchor",
+    "prompt": "i want a movie combining Interstellar, Pulp Fiction, and La La Land",
+    "expected": ["Blade Runner", "Goodfellas", "Eternal Sunshine"]
+  }
+]
