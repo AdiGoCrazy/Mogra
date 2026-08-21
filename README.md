@@ -6,6 +6,8 @@ Configured by default to deliver **exactly 1 high-precision movie recommendation
 
 Powered by an interactive **Textual Terminal User Interface (TUI)**, a production **FastAPI REST Server with Swagger UI**, and running 100% locally via **Ollama (`qwen2.5:3b`)** and local text embeddings (`nomic-embed-text`).
 
+![Textual Terminal User Interface Demo](assets/tui_demo.png)
+
 ---
 
 ## 🌟 Key Features
